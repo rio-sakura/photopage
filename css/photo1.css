@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: #00ffee;
+  color: #0f0e0e;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+  justify-content: center; /* 中央揃えでバランス良く */
+  list-style: none;
+  margin: 0;
+}
+
+.gallery li {
+  width: 170px;
+  background: #7be779;
+  border: 10px solid #7be779;
+  box-shadow: 5px 5px 5px yellow;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+nav a{
+  margin: 0 15px;
+  color: #ffee02;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #0078a8;
+  padding: 10px 15px;
+  border-radius: 20;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #005f86;
+  text-decoration: underline;
+}
