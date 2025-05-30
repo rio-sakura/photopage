@@ -5,6 +5,7 @@ body {
   background-color: #00ffee;
   color: #0f0e0e;
 }
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -26,11 +27,12 @@ body {
   text-align: center;
 }
 
-.gallery img {
+.photo img {
   max-width: 100%;
   height: auto;
   display: block;
 }
+
 nav a{
   margin: 0 15px;
   color: #ffee02;
